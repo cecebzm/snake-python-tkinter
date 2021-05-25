@@ -106,13 +106,13 @@ oval = can.create_oval(Serpent[0][0], Serpent[0][1], Serpent[0][0]+10, Serpent[0
 
 pomme = can.create_rectangle(pX, pY, pX+5, pY+5, outline='green', fill='black')
 
-b1 = Button(fen, text='Démarrer', command=newGame, bg='black' , fg='green')
+b1 = Button(fen, text='Demarrer', command=newGame, bg='black' , fg='green')
 b1.pack(side=LEFT, padx=5, pady=5)
 
 b2 = Button(fen, text='Terminer', command=fen.destroy, bg='black' , fg='green')
 b2.pack(side=RIGHT, padx=5, pady =5)
 
-tex1 = Label(fen, text="Cliquez sur 'New Game' pour démarrer le jeu.", bg='black' , fg='green')
+tex1 = Label(fen, text="Cliquez sur 'Demarrer' pour démarrer le jeu.", bg='black' , fg='green')
 tex1.pack(padx=0, pady=11)
 
 fen.bind('<d>', right)
